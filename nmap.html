@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tools - Nmap</title>
+</head>
+<body>
+    <nav class="tool-nav">
+        <a href="#install-header">How to install</a>
+        <a href="#about">What is Nmap?</a>
+        <a href="/index.html">Menu</a>
+    </nav>
+    <section class="header-section">
+        <img class="header-logo" src="img/nmap-logo-256x256-1.png" alt="Nmap-Logo">
+    </section>
+    <section id="about" class="nmaps-section">
+        <h2>What is Nmap?</h2>
+        <article id="tool-desc">
+            <p>
+                Nmap <strong>(Network Mapper)</strong> is a free and open-source tool used to discover devices on a network and scan for open ports and services.
+                It helps you see which computers are online, what services they’re running, and whether there are potential security vulnerabilities.
+                Commonly used by network administrators, security professionals, and ethical hackers to map networks and test security.
+                <br>
+                <div id="paddingDiv"></div>
+                In short:
+                Nmap tells you who’s on the network, what they’re running, and what’s exposed.
+            </p>
+        </article>
+    </section>
+    <section id="install-section" class="nmaps-section">
+        <h2>How to Install Nmap</h2>
+        <article id="install-instructions">
+            <h3 id="install-header">
+                To install Nmap, follow these steps based on your operating system:
+            </h3>
+            <ul id="install-list">
+                <li><strong>Windows:</strong> Download the installer from the official Nmap website <strong><a href="https://nmap.org/download.html">(https://nmap.org/download.html)</a></strong> and run it. Follow the prompts to complete the installation.</li>
+                <li><strong>Linux:</strong> Use your package manager. For example, on Debian-based systems, run <code><i>sudo apt-get install nmap</i></code>. On Red Hat-based systems, use <code><i>sudo yum install nmap</i></code>.</li>
+                <li><strong>macOS:</strong> Install via Homebrew by running <code><i>brew install nmap</i></code>. If you don’t have Homebrew, you can download the installer from the Nmap website.</li>
+            </ul>
+            <p>
+                After installation, you can verify it by opening a terminal or command prompt and typing <code>nmap --version</code>.
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p id="copyright" >&copy Jacob Dawes 2025. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tools - Hashcat</title>
+</head>
+<body>
+    <nav class="tool-nav">
+        <a href="#install-header">How to install</a>
+        <a href="#about">What is Hashcat?</a>
+        <a href="/index.html">Menu</a>
+    </nav>
+    <section class="header-section">
+        <img src="img/hashcat-removebg-preview.png" alt="Hashcat-logo">
+    </section>
+    <section id="about">
+        <h2>What is Hashcat?</h2>
+        <article id="tool-desc">
+            <p>
+                Hashcat is a powerful and versatile password recovery tool that supports a wide range of hashing algorithms.
+                It is designed to crack hashed passwords using various attack methods, including dictionary attacks, brute-force attacks, and hybrid attacks.
+                Hashcat is known for its speed and efficiency, leveraging the power of GPUs to accelerate the cracking process.
+                It is widely used by security professionals and penetration testers to assess the strength of passwords and recover lost credentials.
+                <br>
+                <div id="paddingDiv"></div>
+                In short:
+                Hashcat helps you recover lost passwords by trying different combinations quickly.
+            </p>
+        </article>
+    </section>
+    <section id="install-section">
+        <h2>How to Install Hashcat</h2>
+        <article id="install-instructions">
+            <h3 id="install-header">
+                To install Hashcat, follow these steps based on your operating system:
+            </h3>
+            <ul id="install-list">
+                <li><strong>Windows:</strong> Download the latest version of Hashcat from the <strong><a href="https://hashcat.net/hashcat/">(hashcat official website)</a></strong>. Extract the downloaded ZIP file to a desired location on your computer. You can run Hashcat from the command line by navigating to the extracted folder.</li>
+                <li><strong>Linux:</strong> Use your package manager or download it directly. For example, on Debian-based systems, you can run <br> <code><i>sudo apt-get install hashcat</i></code>. Alternatively, you can download the latest version from the official website and extract it. Make sure to have the necessary drivers for your GPU installed.</li>
+                <li><strong>macOS:</strong> You can install Hashcat using Homebrew by running <code><i>brew install hashcat</i></code>. If you prefer, you can also download it from the official website and extract it. Ensure that you have the appropriate GPU drivers installed for optimal performance.</li>
+            </ul>
+            <p>
+                After installation, you can verify it by opening a terminal or command prompt and typing <code>hashcat --version</code>
+            </p>
+        </article>
+    </section>
+    <footer>
+        <p id="copyright" >&copy Jacob Dawes 2025. All Rights Reserved</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tool - Hydra</title>
+</head>
+
+<body>
+    <nav class="tool-nav">
+        <a href="#install-header">How to install</a>
+        <a href="#about">What is Hydra?</a>
+        <a href="/index.html">Menu</a>
+    </nav>
+    <section class="header-section">
+        <img class="header-logo" src="img/hydra-logo.svg" alt="Hydra-Logo">
+    </section>
+    <section id="about">
+        <h2>What is Hydra?</h2>
+        <article id="tool-desc">
+            <p>
+                Hydra, also known as THC Hydra, is a powerful and popular open-source tool used for password cracking
+                and brute-force attacks on various network services.
+                It supports a wide range of protocols including FTP, HTTP, HTTPS, SMB, and more.
+                Hydra is commonly used by penetration testers and security professionals to identify weak passwords and
+                assess the security of systems.
+                <br>
+            <div id="paddingDiv"></div>
+            In short:
+            Hydra helps you test the strength of passwords by attempting to guess them using different methods.
+            </p>
+        </article>
+    </section>
+    <section id="install-section">
+        <h2>How to Install Hydra</h2>
+        <article id="install-instructions">
+            <h3 id="install-header">
+                To install Hydra, follow these steps based on your operating system:
+            </h3>
+            <ul id="install-list">
+                <li><strong>Windows: </strong><em>(Recommended)</em> Install Windows Subsystem for Linux (WSL) and then
+                    install Hydra in the WSL distro (Ubuntu). This keeps things simple and safer than random pre-built
+                    binaries.
+                    <br>
+                    <p># in PowerShell <strong>(one-time WSL install, if not already): </strong> <code>wsl --install</code></p>
+                    <br>
+                    <p># in Ubuntu (once WSL is installed): <code>sudo apt update && sudo apt install hydra</code></p>
+                    <br>
+                    <p><strong>If you must run natively on Windows, there are community pre-built packages (Cygwin-based).
+                       Use caution — prefer official sources or build from source yourself.</strong></p>
+                </li>
+                <li>
+                    <strong>Linux: </strong>Use your package manager. For example, on Debian-based systems, run
+                    <code><i>sudo apt-get install hydra</i></code>.
+                    <br>
+                    On Red Hat-based systems, use <code><i>sudo yum install hydra</i></code>.
+                </li>
+                <li>
+                    <strong>macOS: </strong>Install via Homebrew by running <code><i>brew install hydra</i></code>. If you
+                    don’t have Homebrew, you can install it from <a href="https://brew.sh/">(Homebrew Website)</a>.
+                </li>
+            </ul>
+    </section>
+    <footer>
+        <p id="copyright">&copy Jacob Dawes 2025. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
